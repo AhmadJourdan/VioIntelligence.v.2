@@ -675,5 +675,22 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 
 md-card.md-tb-dark-theme {
-  background-color: rgb(33,47,57);
+  background-color: rgba(33,47,57, 0.6);
+  color: #ffffff;
+}
+
+md-input-container{
+  margin:3px 0;
+}
+
+.layout-padding{
+  padding:4px;
+}
+
+md-card md-card-title {
+    padding: 24px 20px 16px;
+}
+
+#pagelogin{
+  background-image: url("https://gspe-crm.com/img_vio/background3.jpg");
 }
