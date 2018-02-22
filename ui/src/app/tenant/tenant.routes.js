@@ -40,7 +40,7 @@ export default function TenantRoutes($stateProvider) {
                 pageTitle: 'tenant.tenants'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "supervisor_account", "label": "tenant.tenants"}'
+                label: '{"icon": "contacts", "label": "tenant.tenants"}'
             }
         });
 }
