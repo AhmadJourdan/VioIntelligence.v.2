@@ -40,7 +40,7 @@ export default function RuleRoutes($stateProvider) {
                 pageTitle: 'rule.rules'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "settings_ethernet", "label": "rule.rules"}'
+                label: '{"icon": "dns", "label": "rule.rules"}'
             }
         });
 }
