@@ -48,7 +48,7 @@ export default function AdminRoutes($stateProvider) {
                 pageTitle: 'admin.general-settings'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "settings_applications", "label": "admin.general"}'
+                label: '{"icon": "settings", "label": "admin.general"}'
             }
         })
         .state('home.settings.outgoing-mail', {
