@@ -40,7 +40,7 @@ export default function PluginRoutes($stateProvider) {
                 pageTitle: 'plugin.plugins'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "extension", "label": "plugin.plugins"}'
+                label: '{"icon": "apps", "label": "plugin.plugins"}'
             }
         });
 }
