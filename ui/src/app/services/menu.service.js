@@ -70,25 +70,25 @@ function Menu(userService, $state, $rootScope) {
                             name: 'plugin.plugins',
                             type: 'link',
                             state: 'home.plugins',
-                            icon: 'extension'
+                            icon: 'apps'
                         },
                         {
                             name: 'rule.rules',
                             type: 'link',
                             state: 'home.rules',
-                            icon: 'settings_ethernet'
+                            icon: 'dns'
                         },
                         {
                             name: 'tenant.tenants',
                             type: 'link',
                             state: 'home.tenants',
-                            icon: 'supervisor_account'
+                            icon: 'contacts'
                         },
                         {
                             name: 'widget.widget-library',
                             type: 'link',
                             state: 'home.widgets-bundles',
-                            icon: 'now_widgets'
+                            icon: 'dashboard'
                         },
                         {
                             name: 'admin.system-settings',
@@ -101,13 +101,13 @@ function Menu(userService, $state, $rootScope) {
                                     name: 'admin.general',
                                     type: 'link',
                                     state: 'home.settings.general',
-                                    icon: 'settings_applications'
+                                    icon: 'settings'
                                 },
                                 {
                                     name: 'admin.outgoing-mail',
                                     type: 'link',
                                     state: 'home.settings.outgoing-mail',
-                                    icon: 'mail'
+                                    icon: 'local_post_office'
                                 }
                             ]
                         }];
@@ -117,12 +117,12 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'plugin.plugins',
-                                    icon: 'extension',
+                                    icon: 'apps',
                                     state: 'home.plugins'
                                 },
                                 {
                                     name: 'rule.rules',
-                                    icon: 'settings_ethernet',
+                                    icon: 'dns',
                                     state: 'home.rules'
                                 }
                             ]
@@ -132,7 +132,7 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'tenant.tenants',
-                                    icon: 'supervisor_account',
+                                    icon: 'contacts',
                                     state: 'home.tenants'
                                 }
                             ]
@@ -142,7 +142,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'widget.widget-library',
-                                        icon: 'now_widgets',
+                                        icon: 'dashboard',
                                         state: 'home.widgets-bundles'
                                     }
                                 ]
@@ -152,12 +152,12 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'admin.general',
-                                        icon: 'settings_applications',
+                                        icon: 'settings',
                                         state: 'home.settings.general'
                                     },
                                     {
                                         name: 'admin.outgoing-mail',
-                                        icon: 'mail',
+                                        icon: 'local_post_office',
                                         state: 'home.settings.outgoing-mail'
                                     }
                                 ]
@@ -174,19 +174,19 @@ function Menu(userService, $state, $rootScope) {
                             name: 'plugin.plugins',
                             type: 'link',
                             state: 'home.plugins',
-                            icon: 'extension'
+                            icon: 'apps'
                         },
                         {
                             name: 'rule.rules',
                             type: 'link',
                             state: 'home.rules',
-                            icon: 'settings_ethernet'
+                            icon: 'dns'
                         },
                         {
                             name: 'customer.customers',
                             type: 'link',
                             state: 'home.customers',
-                            icon: 'supervisor_account'
+                            icon: 'contacts'
                         },
                         {
                             name: 'asset.assets',
@@ -204,7 +204,7 @@ function Menu(userService, $state, $rootScope) {
                             name: 'widget.widget-library',
                             type: 'link',
                             state: 'home.widgets-bundles',
-                            icon: 'now_widgets'
+                            icon: 'dashboard'
                         },
                         {
                             name: 'dashboard.dashboards',
@@ -219,12 +219,12 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'plugin.plugins',
-                                    icon: 'extension',
+                                    icon: 'apps',
                                     state: 'home.plugins'
                                 },
                                 {
                                     name: 'rule.rules',
-                                    icon: 'settings_ethernet',
+                                    icon: 'dns',
                                     state: 'home.rules'
                                 }
                             ]
@@ -234,7 +234,7 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'customer.customers',
-                                    icon: 'supervisor_account',
+                                    icon: 'contacts',
                                     state: 'home.customers'
                                 }
                             ]
@@ -264,7 +264,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'widget.widget-library',
-                                        icon: 'now_widgets',
+                                        icon: 'dashboard',
                                         state: 'home.widgets-bundles'
                                     },
                                     {
