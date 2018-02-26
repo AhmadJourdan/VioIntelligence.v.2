@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="application" />
+        <module name="coap" />
+        <module name="dao" />
+        <module name="data" />
+        <module name="extension-kafka" />
+        <module name="extension-mqtt" />
+        <module name="extension-rabbitmq" />
+        <module name="extension-rest-api-call" />
+        <module name="extension-sns" />
+        <module name="extension-sqs" />
+        <module name="extensions-api" />
+        <module name="extensions-core" />
+        <module name="http" />
+        <module name="message" />
+        <module name="mqtt" />
+        <module name="tools" />
+        <module name="transport (1) (org.thingsboard.common)" />
+        <module name="ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application" target="1.8" />
+      <module name="coap" target="1.8" />
+      <module name="common" target="1.5" />
+      <module name="dao" target="1.8" />
+      <module name="data" target="1.8" />
+      <module name="extension-kafka" target="1.8" />
+      <module name="extension-mqtt" target="1.8" />
+      <module name="extension-rabbitmq" target="1.8" />
+      <module name="extension-rest-api-call" target="1.8" />
+      <module name="extension-sns" target="1.8" />
+      <module name="extension-sqs" target="1.8" />
+      <module name="extensions" target="1.5" />
+      <module name="extensions-api" target="1.8" />
+      <module name="extensions-core" target="1.8" />
+      <module name="http" target="1.8" />
+      <module name="message" target="1.8" />
+      <module name="mqtt" target="1.8" />
+      <module name="thingsboard" target="1.5" />
+      <module name="tools" target="1.8" />
+      <module name="transport (1) (org.thingsboard.common)" target="1.8" />
+      <module name="transport (2) (org.thingsboard)" target="1.5" />
+      <module name="ui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

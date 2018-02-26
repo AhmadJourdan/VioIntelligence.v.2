@@ -42,7 +42,7 @@ export default function WidgetLibraryRoutes($stateProvider) {
                 pageTitle: 'widgets-bundle.widgets-bundles'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "dashboard", "label": "widgets-bundle.widgets-bundles"}'
+                label: '{"icon": "developer_board", "label": "widgets-bundle.widgets-bundles"}'
             }
         })
         .state('home.widgets-bundles.widget-types', {
@@ -62,7 +62,7 @@ export default function WidgetLibraryRoutes($stateProvider) {
                 pageTitle: 'widget.widget-library'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "dashboard", "label": "{{ vm.widgetsBundle.title }}", "translate": "false"}'
+                label: '{"icon": "developer_board", "label": "{{ vm.widgetsBundle.title }}", "translate": "false"}'
             }
         })
         .state('home.widgets-bundles.widget-types.widget-type', {

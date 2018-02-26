@@ -42,7 +42,7 @@ export default function AssetRoutes($stateProvider, types) {
                 pageTitle: 'asset.assets'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "domain", "label": "asset.assets"}'
+                label: '{"icon": "account_balance", "label": "asset.assets"}'
             }
         })
         .state('home.customers.assets', {
@@ -65,7 +65,7 @@ export default function AssetRoutes($stateProvider, types) {
                 pageTitle: 'customer.assets'
             },
             ncyBreadcrumb: {
-                label: '{"icon": "domain", "label": "{{ vm.customerAssetsTitle }}", "translate": "false"}'
+                label: '{"icon": "account_balance", "label": "{{ vm.customerAssetsTitle }}", "translate": "false"}'
             }
         });
 

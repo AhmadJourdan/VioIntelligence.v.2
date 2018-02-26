@@ -1,0 +1,19 @@
+Format: 1.8
+Date: Mon, 26 Feb 2018 17:00:50 +0700
+Source: thingsboard
+Binary: thingsboard
+Architecture: all
+Version: 1.4.0~SNAPSHOT-1
+Urgency: low
+Maintainer: IT
+Changed-By: IT
+Description:
+ thingsboard - thingsboard
+Changes:
+ thingsboard (1.4.0~SNAPSHOT-1) ; urgency=low
+Checksums-Sha1:
+ a28a00774491ad1d07df740589f32249afb5c222 101441266 thingsboard.deb
+Checksums-Sha256:
+ 99e920ea6fd4de0c805d1612734703d09d89f6449a05fba57e9cdc892ceb3be0 101441266 thingsboard.deb
+Files:
+ 1df3291cb761a772c3a176fb40467fcb 101441266 java optional thingsboard.deb

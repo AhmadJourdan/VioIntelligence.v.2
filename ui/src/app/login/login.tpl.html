@@ -31,29 +31,36 @@
                     <span></span>
                     <md-input-container class="md-block">
                         <label translate>login.username</label>
-                        <!--<md-icon aria-label="{{ 'login.username' | translate }}" class="material-icons">-->
-                            <!--email-->
-                        <!--</md-icon>-->
+                        <!-- <md-icon aria-label="{{ 'login.username' | translate }}" class="material-icons">
+                            email
+                        </md-icon> -->
                         <input id="username-input" type="email" autofocus ng-model="vm.user.name"/>
                     </md-input-container>
-                    <md-input-container class="md-block">
+                    <md-input-container class="md-icon-float md-button-right">
                         <label translate>common.password</label>
                         <!--<md-icon aria-label="{{ 'common.password' | translate }}" class="material-icons">-->
                             <!--lock-->
                         <!--</md-icon>-->
-                        <input id="password-input" type="password" ng-model="vm.user.password"/>
+                        <input id="password-input" type="password" ng-model="vm.user.password" style="width: 80%;" />
+                        <!-- <div class="button-group"> -->
+                            <md-button class="md-icon-button md-primary" aria-label="forward" type="submit" style="float: right;">
+                                <md-icon aria-label="forward" class="material-icons">
+                                    forward
+                                </md-icon>
+                            </md-button>
+                        <!-- </div> -->
                     </md-input-container>
                     <div layout-gt-sm="column" layout-align="space-between stretch">
-                        <div layout-gt-sm="column" layout-align="space-between end">
+                        <div layout-gt-sm="column" layout-align="space-between center">
                             <md-button ui-sref="login.resetPasswordRequest" style="color:white;">{{ 'login.forgot-password' | translate }}
                             </md-button>
                         </div>
                     </div>
-                    <div layout-gt-sm="column" layout-align="space-between stretch">
+                   <!--  <div layout-gt-sm="column" layout-align="space-between stretch">
                         <div layout-gt-sm="column" layout-align="space-between end">
                             <md-button class="md-raised" type="submit" align="right" style="background-color:white; color:black;">{{ 'login.login' | translate }}</md-button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </form>
         </md-card-content>

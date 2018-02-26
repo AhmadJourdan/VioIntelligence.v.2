@@ -696,7 +696,7 @@ const commonMapSettingsSchema =
                 "tooltipPattern":{
                     "title":"Tooltip (for ex. 'Text ${keyName} units.' or <link-act name='my-action'>Link text</link-act>')",
                     "type":"string",
-                    "default":"<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}"
+                    "default":"<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:-6.1919445}<br/><b>Longitude:</b> ${longitude:106}"
                 },
                 "color":{
                     "title":"Color",

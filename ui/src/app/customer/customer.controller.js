@@ -47,7 +47,7 @@ export default function CustomerController(customerService, $state, $stateParams
                     return $translate.instant('customer.manage-customer-assets')
                 }
             },
-            icon: "domain"
+            icon: "account_balance"
         },
         {
             onAction: function ($event, item) {
@@ -61,7 +61,7 @@ export default function CustomerController(customerService, $state, $stateParams
                     return $translate.instant('customer.manage-customer-devices')
                 }
             },
-            icon: "devices_other"
+            icon: "important_devices"
         },
         {
             onAction: function ($event, item) {

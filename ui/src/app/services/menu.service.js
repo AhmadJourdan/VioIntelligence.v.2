@@ -88,7 +88,7 @@ function Menu(userService, $state, $rootScope) {
                             name: 'widget.widget-library',
                             type: 'link',
                             state: 'home.widgets-bundles',
-                            icon: 'dashboard'
+                            icon: 'developer_board'
                         },
                         {
                             name: 'admin.system-settings',
@@ -142,7 +142,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'widget.widget-library',
-                                        icon: 'dashboard',
+                                        icon: 'developer_board',
                                         state: 'home.widgets-bundles'
                                     }
                                 ]
@@ -192,25 +192,25 @@ function Menu(userService, $state, $rootScope) {
                             name: 'asset.assets',
                             type: 'link',
                             state: 'home.assets',
-                            icon: 'domain'
+                            icon: 'account_balance'
                         },
                         {
                             name: 'device.devices',
                             type: 'link',
                             state: 'home.devices',
-                            icon: 'devices_other'
+                            icon: 'important_devices'
                         },
                         {
                             name: 'widget.widget-library',
                             type: 'link',
                             state: 'home.widgets-bundles',
-                            icon: 'dashboard'
+                            icon: 'developer_board'
                         },
                         {
                             name: 'dashboard.dashboards',
                             type: 'link',
                             state: 'home.dashboards',
-                            icon: 'dashboards'
+                            icon: 'dashboard'
                         }];
 
                     homeSections =
@@ -244,7 +244,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'asset.assets',
-                                        icon: 'domain',
+                                        icon: 'account_balance',
                                         state: 'home.assets'
                                     }
                                 ]
@@ -254,7 +254,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'device.devices',
-                                        icon: 'devices_other',
+                                        icon: 'important_devices',
                                         state: 'home.devices'
                                     }
                                 ]
@@ -264,7 +264,7 @@ function Menu(userService, $state, $rootScope) {
                                 places: [
                                     {
                                         name: 'widget.widget-library',
-                                        icon: 'dashboard',
+                                        icon: 'developer_board',
                                         state: 'home.widgets-bundles'
                                     },
                                     {
@@ -287,13 +287,13 @@ function Menu(userService, $state, $rootScope) {
                             name: 'asset.assets',
                             type: 'link',
                             state: 'home.assets',
-                            icon: 'domain'
+                            icon: 'account_balance'
                         },
                         {
                             name: 'device.devices',
                             type: 'link',
                             state: 'home.devices',
-                            icon: 'devices_other'
+                            icon: 'important_devices'
                         },
                         {
                             name: 'dashboard.dashboards',
@@ -308,7 +308,7 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'asset.assets',
-                                    icon: 'domain',
+                                    icon: 'account_balance',
                                     state: 'home.assets'
                                 }
                             ]
@@ -318,7 +318,7 @@ function Menu(userService, $state, $rootScope) {
                             places: [
                                 {
                                     name: 'device.devices',
-                                    icon: 'devices_other',
+                                    icon: 'important_devices',
                                     state: 'home.devices'
                                 }
                             ]

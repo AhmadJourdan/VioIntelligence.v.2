@@ -632,7 +632,7 @@ export default function DashboardController(types, utils, dashboardUtils, widget
                     action: openEntityAliases,
                     enabled: true,
                     value: "entity.aliases",
-                    icon: "devices_other"
+                    icon: "important_devices"
                 }
             );
             dashboardContextActions.push(

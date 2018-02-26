@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport/coap/coap.iml" filepath="$PROJECT_DIR$/transport/coap/coap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao/dao.iml" filepath="$PROJECT_DIR$/dao/dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/data/data.iml" filepath="$PROJECT_DIR$/common/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-kafka/extension-kafka.iml" filepath="$PROJECT_DIR$/extensions/extension-kafka/extension-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-mqtt/extension-mqtt.iml" filepath="$PROJECT_DIR$/extensions/extension-mqtt/extension-mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-rabbitmq/extension-rabbitmq.iml" filepath="$PROJECT_DIR$/extensions/extension-rabbitmq/extension-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-rest-api-call/extension-rest-api-call.iml" filepath="$PROJECT_DIR$/extensions/extension-rest-api-call/extension-rest-api-call.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-sns/extension-sns.iml" filepath="$PROJECT_DIR$/extensions/extension-sns/extension-sns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extension-sqs/extension-sqs.iml" filepath="$PROJECT_DIR$/extensions/extension-sqs/extension-sqs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions/extensions.iml" filepath="$PROJECT_DIR$/extensions/extensions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions-api/extensions-api.iml" filepath="$PROJECT_DIR$/extensions-api/extensions-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extensions-core/extensions-core.iml" filepath="$PROJECT_DIR$/extensions-core/extensions-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport/http/http.iml" filepath="$PROJECT_DIR$/transport/http/http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/message/message.iml" filepath="$PROJECT_DIR$/common/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport/mqtt/mqtt.iml" filepath="$PROJECT_DIR$/transport/mqtt/mqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thingsboard.iml" filepath="$PROJECT_DIR$/thingsboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/transport/transport (1) (org.thingsboard.common).iml" filepath="$PROJECT_DIR$/common/transport/transport (1) (org.thingsboard.common).iml" />
+      <module fileurl="file://$PROJECT_DIR$/transport/transport (2) (org.thingsboard).iml" filepath="$PROJECT_DIR$/transport/transport (2) (org.thingsboard).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui/ui.iml" filepath="$PROJECT_DIR$/ui/ui.iml" />
+    </modules>
+  </component>
+</project>

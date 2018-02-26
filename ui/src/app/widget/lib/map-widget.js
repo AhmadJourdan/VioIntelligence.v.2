@@ -182,7 +182,7 @@ export default class TbMapWidget {
                         useMarkerImageFunction: false,
                         markerImageFunction: null,
                         markerImages: [],
-                        tooltipPattern: subscriptionLocationSettings.tooltipPattern || "<b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}"
+                        tooltipPattern: subscriptionLocationSettings.tooltipPattern || "<b>Latitude:</b> ${latitude:-6.1919445}<br/><b>Longitude:</b> ${longitude:106}"
                     };
 
                     locationsSettings.tooltipReplaceInfo = procesTooltipPattern(this, locationsSettings.tooltipPattern, this.subscription.datasources, i);
@@ -229,7 +229,7 @@ export default class TbMapWidget {
                 useMarkerImageFunction: false,
                 markerImageFunction: null,
                 markerImages: [],
-                tooltipPattern: "<b>Latitude:</b> ${lat:7}<br/><b>Longitude:</b> ${lng:7}"
+                tooltipPattern: "<b>Latitude:</b> ${lat:-6.1919445}<br/><b>Longitude:</b> ${lng:106}"
             };
 
             if (this.drawRoutes) {

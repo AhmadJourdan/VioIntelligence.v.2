@@ -661,7 +661,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 
 .md-button{
-  font-size:12px;
+  font-size:14px;
 }
 
 .md-headline{
@@ -675,7 +675,7 @@ md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolb
 }
 
 md-card.md-tb-dark-theme {
-  background-color: rgba(33,47,57, 0.6);
+  background-color: rgba(33,47,57, 0.5);
   color: #ffffff;
 }
 
@@ -683,8 +683,8 @@ md-input-container{
   margin:3px 0;
 }
 
-.layout-padding{
-  padding:4px;
+.layout-padding>*{
+  padding:0px;
 }
 
 md-card md-card-title {
@@ -692,5 +692,9 @@ md-card md-card-title {
 }
 
 #pagelogin{
-  background-image: url("https://gspe-crm.com/img_vio/background3.jpg");
+  background-image: url("https://gspe-crm.com/img_vio/background_login.jpg");
+}
+
+.tb-side-menu .md-button{
+  margin-top:2px;
 }
