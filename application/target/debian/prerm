@@ -1,9 +1,0 @@
-#!/bin/sh -e
-
-
-
-if [ -e /var/run/thingsboard/thingsboard.pid ]; then
-    service thingsboard stop
-fi
-
-
